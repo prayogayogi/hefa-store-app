@@ -1,16 +1,16 @@
 <template>
-  <div class="category">
+  <div class="designer">
     <!-- Include Components Navbar -->
     <Navbar />
     <!-- End Include Components Navbar -->
 
-    <!-- Similar Product -->
+        <!-- Similar Product -->
     <section class="similar-product">
       <div class="container">
         <div class="row mb-3">
           <div class="col">
-            <h3>Category</h3>
-            <p>Miliki Pakaian dengan kategory terbaik</p>
+            <h3>Designers</h3>
+            <p>Miliki Pakaian dengan Designers terbaik</p>
           </div>
         </div>
 
@@ -24,8 +24,7 @@
               <figcaption class="figure-caption">
                 <div class="row">
                   <div class="col">
-                    <h4>Category 1</h4>
-                    <p>200 items</p>
+                    <h4>Anne Mortgery</h4>
                   </div>
                 </div>
               </figcaption>
@@ -46,8 +45,7 @@
                       class="btn btn-sm btn-success float-right mt-2"
                       >New</a
                     >
-                    <h4>Category 2</h4>
-                    <p>100 items</p>
+                    <h4>Anne Mortgery</h4>
                   </div>
                 </div>
               </figcaption>
@@ -63,8 +61,7 @@
               <figcaption class="figure-caption">
                 <div class="row">
                   <div class="col">
-                    <h4>Category 3</h4>
-                    <p>500 items</p>
+                    <h4>Anne Mortgery</h4>
                   </div>
                 </div>
               </figcaption>
@@ -80,8 +77,7 @@
               <figcaption class="figure-caption">
                 <div class="row">
                   <div class="col">
-                    <h4>Category 4</h4>
-                    <p>1500 items</p>
+                    <h4>Anne Mortgery</h4>
                   </div>
                 </div>
               </figcaption>
@@ -97,8 +93,7 @@
               <figcaption class="figure-caption">
                 <div class="row">
                   <div class="col">
-                    <h4>Category 5</h4>
-                    <p>550 items</p>
+                    <h4>Anne Mortgery</h4>
                   </div>
                 </div>
               </figcaption>
@@ -109,23 +104,17 @@
     </section>
     <!-- Akhir Similar Product -->
 
-    <!-- Include Component Designer -->
-    <Designer />
-    <!-- End Include Component Designer -->
   </div>
 </template>
+
 <script>
-import Designer from "../components/layouts/Designer.vue";
-import Navbar from "../components/layouts/Navbar.vue";
+import Navbar from "../components/layouts/Navbar.vue"
+
 
 export default {
-  components: {
-    Navbar,
-    Designer,
-  },
-  name: "Category",
-};
+  name:'Designer',
+  components:{
+    Navbar
+  }
+}
 </script>
-
-<style>
-</style>

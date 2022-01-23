@@ -1,5 +1,9 @@
 <template>
   <div class="home">
+    <!-- Include Components Navbar -->
+    <Navbar />
+    <!-- End Include Components Navbar -->
+
     <!-- Carousel -->
     <div
       id="carouselExampleControls"
@@ -130,7 +134,10 @@
                   src="hefa-store/img/feature/3.png"
                   class="figure-img img-fluid"
                 />
-                <router-link to="/category" class="d-flex justify-content-center">
+                <router-link
+                  to="/singelDetail"
+                  class="d-flex justify-content-center"
+                >
                   <img
                     src="hefa-store/img/detail.png"
                     class="align-self-center"
@@ -210,7 +217,10 @@
                   src="hefa-store/img/feature/1.png"
                   class="figure-img img-fluid"
                 />
-                <router-link to="/category" class="d-flex justify-content-center">
+                <router-link
+                  to="/category"
+                  class="d-flex justify-content-center"
+                >
                   <img
                     src="hefa-store/img/detail.png"
                     class="align-self-center"
@@ -256,9 +266,12 @@
 
 <script>
 import Designer from "../components/layouts/Designer.vue";
+import Navbar from "../components/layouts/Navbar.vue";
+
 export default {
   name: "Home",
   components: {
+    Navbar,
     Designer,
   },
 };

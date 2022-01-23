@@ -63,7 +63,7 @@
 
         <div class="row m-3">
           <div class="col text-center">
-            <a href="">See All Our Designers</a>
+            <router-link to="/designer">See All Our Designers</router-link>
           </div>
         </div>
       </div>

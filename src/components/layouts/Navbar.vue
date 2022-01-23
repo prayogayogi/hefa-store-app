@@ -23,17 +23,20 @@
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/category">Category</router-link>
+              <router-link class="nav-link" to="/category"
+                >Category</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Designer</a>
+              <router-link class="nav-link" to="/designer">Designer</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <router-link class="nav-link" to="/about">About</router-link>
             </li>
           </ul>
-          <a href="" class="nav-link text-white"
-            ><i class="fas fa-shopping-cart"></i> My Cart (<span>12</span>)</a
+          <router-link to="/cart" class="nav-link text-white"
+            ><i class="fas fa-shopping-cart"></i> My Cart
+            (<span>12</span>)</router-link
           >
         </div>
       </div>
