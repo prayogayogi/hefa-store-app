@@ -23,7 +23,7 @@
           <div class="col-lg-5">
             <figure class="figure">
               <img
-                src="hefa-store/img/single/1.png"
+                src="../assets/1.png"
                 class="figure-img img-fluid"
               />
               <figcaption
@@ -35,16 +35,16 @@
                 "
               >
                 <a href="">
-                  <img src="hefa-store/img/single/thumbnail/1.png" />
+                  <img src="../../public/hefa-store/img/single/thumbnail/1.png" />
                 </a>
                 <a href="">
-                  <img src="hefa-store/img/single/thumbnail/2.png" />
+                  <img src="../../public/hefa-store/img/single/thumbnail/2.png" />
                 </a>
                 <a href="">
-                  <img src="hefa-store/img/single/thumbnail/3.png" />
+                  <img src="../../public/hefa-store/img/single/thumbnail/3.png" />
                 </a>
                 <a href="">
-                  <img src="hefa-store/img/single/thumbnail/4.png" />
+                  <img src="../../public/hefa-store/img/single/thumbnail/4.png" />
                 </a>
               </figcaption>
             </figure>
@@ -85,7 +85,7 @@
               <h5>Designed by</h5>
               <div class="row">
                 <div class="col-2">
-                  <img src="hefa-store/img/single/2.png" />
+                  <img src="../../public/hefa-store/img/single/2.png" />
                 </div>
                 <div class="col">
                   <h4>Anne Mortgery</h4>
@@ -163,7 +163,7 @@
               >
                 <div class="row">
                   <div class="col-1 d-none d-md-block">
-                    <img src="hefa-store/img/single/review/1.png" />
+                    <img src="../../public/hefa-store/img/single/review/1.png" />
                   </div>
                   <div class="col">
                     <h5>Joe Mackenzie</h5>
@@ -174,7 +174,7 @@
                 </div>
                 <div class="row">
                   <div class="col-1 d-none d-md-block">
-                    <img src="hefa-store/img/single/review/2.png" />
+                    <img src="../../public/hefa-store/img/single/review/2.png" />
                   </div>
                   <div class="col">
                     <h5>Brian Smith</h5>
@@ -185,7 +185,7 @@
                 </div>
                 <div class="row">
                   <div class="col-1 d-none d-md-block">
-                    <img src="hefa-store/img/single/review/1.png" />
+                    <img src="../../public/hefa-store/img/single/review/1.png" />
                   </div>
                   <div class="col">
                     <h5>Joe Mackenzie</h5>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="row">
                   <div class="col-1 d-none d-md-block">
-                    <img src="hefa-store/img/single/review/2.png" />
+                    <img src="../../public/hefa-store/img/single/review/2.png" />
                   </div>
                   <div class="col">
                     <h5>Brian Smith</h5>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="row">
                   <div class="col-1 d-none d-md-block">
-                    <img src="hefa-store/img/single/review/1.png" />
+                    <img src="../../public/hefa-store/img/single/review/1.png" />
                   </div>
                   <div class="col">
                     <h5>Joe Mackenzie</h5>
@@ -218,7 +218,7 @@
                 </div>
                 <div class="row">
                   <div class="col-1 d-none d-md-block">
-                    <img src="hefa-store/img/single/review/2.png" />
+                    <img src="../../public/hefa-store/img/single/review/2.png" />
                   </div>
                   <div class="col">
                     <h5>Brian Smith</h5>

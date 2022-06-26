@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="footer" id="footer">
     <!-- Footer -->
     <footer class="border-top p-5">
       <div class="container">
@@ -40,5 +40,6 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style scoped>
+
+</style>>

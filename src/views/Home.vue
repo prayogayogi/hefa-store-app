@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    
     <!-- Include Components Navbar -->
     <Navbar />
     <!-- End Include Components Navbar -->
@@ -127,15 +128,17 @@
         </div>
 
         <div class="row">
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2"
+          >
             <figure class="figure">
               <div class="figure-img">
                 <img
-                  src="hefa-store/img/feature/3.png"
+                src="hefa-store/img/feature/1.png"
                   class="figure-img img-fluid"
                 />
                 <router-link
-                  to="/singelDetail"
+                  to="/singelDetail/2"
                   class="d-flex justify-content-center"
                 >
                   <img
@@ -145,80 +148,22 @@
                 </router-link>
               </div>
               <figcaption class="figure-caption text-center">
-                <h5>Jeans Pubb</h5>
-                <p>IDR 190.300</p>
+                <h5></h5>
+                <p>IDR .0000</p>
               </figcaption>
             </figure>
           </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2"
+          >
             <figure class="figure">
               <div class="figure-img">
                 <img
-                  src="hefa-store/img/feature/1.png"
-                  class="figure-img img-fluid"
-                />
-                <a href="" class="d-flex justify-content-center">
-                  <img
-                    src="hefa-store/img/detail.png"
-                    class="align-self-center"
-                  />
-                </a>
-              </div>
-              <figcaption class="figure-caption text-center">
-                <h5>Jeans Pubb</h5>
-                <p>IDR 190.300</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <figure class="figure">
-              <div class="figure-img">
-                <img
-                  src="hefa-store/img/feature/2.png"
-                  class="figure-img img-fluid"
-                />
-                <a href="" class="d-flex justify-content-center">
-                  <img
-                    src="hefa-store/img/detail.png"
-                    class="align-self-center"
-                  />
-                </a>
-              </div>
-              <figcaption class="figure-caption text-center">
-                <h5>Jeans Pubb</h5>
-                <p>IDR 190.300</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <figure class="figure">
-              <div class="figure-img">
-                <img
-                  src="hefa-store/img/feature/3.png"
-                  class="figure-img img-fluid"
-                />
-                <a href="" class="d-flex justify-content-center">
-                  <img
-                    src="hefa-store/img/detail.png"
-                    class="align-self-center"
-                  />
-                </a>
-              </div>
-              <figcaption class="figure-caption text-center">
-                <h5>Jeans Pubb</h5>
-                <p>IDR 190.300</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <figure class="figure">
-              <div class="figure-img">
-                <img
-                  src="hefa-store/img/feature/1.png"
+                src="hefa-store/img/feature/3.png"
                   class="figure-img img-fluid"
                 />
                 <router-link
-                  to="/category"
+                  to="/singelDetail/2"
                   class="d-flex justify-content-center"
                 >
                   <img
@@ -228,28 +173,108 @@
                 </router-link>
               </div>
               <figcaption class="figure-caption text-center">
-                <h5>Jeans Pubbs</h5>
-                <p>IDR 190.300</p>
+                <h5></h5>
+                <p>IDR .0000</p>
               </figcaption>
             </figure>
           </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2"
+          >
             <figure class="figure">
               <div class="figure-img">
                 <img
-                  src="hefa-store/img/feature/2.png"
+                src="hefa-store/img/feature/1.png"
                   class="figure-img img-fluid"
                 />
-                <a href="" class="d-flex justify-content-center">
+                <router-link
+                  to="/singelDetail/2"
+                  class="d-flex justify-content-center"
+                >
                   <img
                     src="hefa-store/img/detail.png"
                     class="align-self-center"
                   />
-                </a>
+                </router-link>
               </div>
               <figcaption class="figure-caption text-center">
-                <h5>Jeans Pubb</h5>
-                <p>IDR 190.300</p>
+                <h5></h5>
+                <p>IDR .0000</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2"
+          >
+            <figure class="figure">
+              <div class="figure-img">
+                <img
+                src="hefa-store/img/feature/2.png"
+                  class="figure-img img-fluid"
+                />
+                <router-link
+                  to="/singelDetail/2"
+                  class="d-flex justify-content-center"
+                >
+                  <img
+                    src="hefa-store/img/detail.png"
+                    class="align-self-center"
+                  />
+                </router-link>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5></h5>
+                <p>IDR .0000</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2"
+          >
+            <figure class="figure">
+              <div class="figure-img">
+                <img
+                src="hefa-store/img/feature/3.png"
+                  class="figure-img img-fluid"
+                />
+                <router-link
+                  to="/singelDetail/2"
+                  class="d-flex justify-content-center"
+                >
+                  <img
+                    src="hefa-store/img/detail.png"
+                    class="align-self-center"
+                  />
+                </router-link>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5></h5>
+                <p>IDR .0000</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2"
+          >
+            <figure class="figure">
+              <div class="figure-img">
+                <img
+                src="hefa-store/img/feature/1.png"
+                  class="figure-img img-fluid"
+                />
+                <router-link
+                  to="/singelDetail/2"
+                  class="d-flex justify-content-center"
+                >
+                  <img
+                    src="hefa-store/img/detail.png"
+                    class="align-self-center"
+                  />
+                </router-link>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5></h5>
+                <p>IDR .0000</p>
               </figcaption>
             </figure>
           </div>
@@ -267,12 +292,29 @@
 <script>
 import Designer from "../components/layouts/Designer.vue";
 import Navbar from "../components/layouts/Navbar.vue";
+import axios from "axios";
 
 export default {
   name: "Home",
   components: {
     Navbar,
     Designer,
+  },
+  data() {
+    return {
+      dataProduk: [],
+    };
+  },
+  methods:{
+    getProduct(el){
+      this.dataProduk = el
+    }
+  },
+  created() {
+    axios
+    .get("http://127.0.0.1:8000/api/product")
+    .then((response) => this.getProduct(response.data.data.data))
+    .catch((error) => console.log("Data Gagal Di ambil", error));
   },
 };
 </script>

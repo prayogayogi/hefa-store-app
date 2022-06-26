@@ -13,7 +13,7 @@
         <div class="col-sm-4">
           <figure class="figure">
             <img
-              src="hefa-store/img/single/similar/1.png"
+              src="../../../public/hefa-store/img/single/similar/1.png"
               class="figure-img img-fluid"
             />
             <figcaption class="figure-caption">
@@ -32,7 +32,7 @@
         <div class="col-sm-4">
           <figure class="figure">
             <img
-              src="hefa-store/img/single/similar/2.png"
+              src="../../../public/hefa-store/img/single/similar/2.png"
               class="figure-img img-fluid"
             />
             <figcaption class="figure-caption">
@@ -51,7 +51,7 @@
         <div class="col-sm-4">
           <figure class="figure">
             <img
-              src="hefa-store/img/single/similar/3.png"
+              src="../../../public/hefa-store/img/single/similar/3.png"
               class="figure-img img-fluid"
             />
             <figcaption class="figure-caption">

@@ -6,6 +6,7 @@ import SingelDetail from '../views/SingelDetail.vue'
 import Cart from '../views/Cart.vue'
 import Designer from '../views/Designer.vue'
 import About from '../views/About.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -31,7 +32,7 @@ const routes = [
     component: About
   },
   {
-    path: '/singelDetail',
+    path: '/singelDetail/:id',
     name: 'SingelDetail',
     component: SingelDetail
   },
@@ -39,11 +40,28 @@ const routes = [
     path: '/cart',
     name: 'Cart',
     component: Cart
+  },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: NotFound
   }
 ]
 
 const router = new VueRouter({
-  routes
+  mode: 'history',
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return {
+        x: 0,
+        y: 0,
+        behavior: 'smooth'
+      };
+    }
+  }
 })
 
 export default router

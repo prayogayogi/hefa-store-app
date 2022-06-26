@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <router-link class="navbar-brand" to="/">
-          <img src="hefa-store/img/logo_small.png" alt="Hefa Store" />
+          <img src="../../assets/logo_small.png" alt="Hefa Store" />
         </router-link>
         <button
           class="navbar-toggler"
