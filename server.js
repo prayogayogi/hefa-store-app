@@ -9,4 +9,4 @@ app.use("/", serveStatic(path.join(__dirname, "/dist")));
 const port = proccess.env.PORT || 8080;
 app.listen(port);
 
-console.log(`Listening or port ${port}`);
+// console.log(`Listening or port ${port}`);
