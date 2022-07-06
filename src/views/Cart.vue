@@ -13,7 +13,7 @@
     <div class="container">
       <nav>
         <ol class="breadcrumb bg-transparent pl-0 cart-breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
           <li class="breadcrumb-item active" aria-current="page">
             Cart Checkout
           </li>
@@ -255,13 +255,14 @@
 
             <div class="row mt-3">
               <div class="col">
-                <button
+                <router-link
+                  to="/"
                   type="button"
                   class="btn btn-block"
                   style="background-color: #eaeaef; color: #adadad"
                 >
                   Cancel
-                </button>
+                </router-link>
               </div>
               <div class="col">
                 <button

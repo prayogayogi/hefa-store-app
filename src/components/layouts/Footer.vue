@@ -8,7 +8,7 @@
             <a href="">
               <img src="hefa-store/img/logo_small.png" />
             </a>
-            <p>All Rights Reserved by Hefa Store Copyright 2019.</p>
+            <p class="mt-3">All Rights Reserved by Hefa Store Copyright 2019.</p>
           </div>
           <div class="col-6 col-md-6 text-right">
             <a href="">
@@ -42,4 +42,4 @@ export default {
 
 <style scoped>
 
-</style>>
+</style>

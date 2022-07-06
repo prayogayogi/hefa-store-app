@@ -23,15 +23,15 @@
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
+              <router-link class="nav-link" to="/about">About</router-link>
+            </li>
+            <li class="nav-item">
               <router-link class="nav-link" to="/category"
                 >Category</router-link
               >
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/designer">Designer</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
             </li>
           </ul>
           <router-link to="/cart" class="nav-link text-white"
